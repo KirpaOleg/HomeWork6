@@ -1,0 +1,136 @@
+  * {
+    box-sizing: border-box;
+  }
+  /* task 1 */
+  .kvadrat {
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+    border:3px solid black;
+    width: 800px;
+    height: 600px;
+  }
+  .baza {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 120px;
+    height: 120px;
+  }
+  .big {
+    width: 150px;
+    height: 150px;
+  }
+  .circle1 {
+    left: 50px;
+    top: 50px;
+    background-color: green;
+  }
+  .circle2 {
+    left: 50px;
+    top: 150px;
+    background-color: yellow;
+  }
+  .circle3 {
+    left: 50px;
+    top: 250px;
+    background-color: brown;
+  }
+  .circle4 {
+    left: 270px;
+    top: 40px;
+    background-color: gray;
+  }
+  .circle5 {
+    left: 170px;
+    top: 70px;
+    background-color: red;
+  }
+  .home1 {
+    width: 100%;
+    height: 700px;
+    border: 3px dashed gray;
+  }
+  /* task 2 */
+  .hei {
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto; 
+    cursor: pointer;
+    transition: 3s;
+  }
+  .box {
+    position: relative;
+    margin: 0 auto; 
+    width: 1000px;
+    height: 500px;
+  }
+  .rectangle1 {
+    background: gray;
+    width: 900px;
+    bottom: 0px;
+  }
+  .hei:hover {
+    background-color: mediumturquoise;
+  }
+  .rectangle2 {
+    background: orange;
+    width: 750px;
+    bottom: 40px;
+  }
+  .rectangle3 {
+    background: green;
+    width: 600px;
+    bottom: 80px;
+  }
+  .rectangle4 {
+    background: blue;
+    width: 450px;
+    bottom: 120px;
+  }
+  .rectangle5 {
+    background: pink;
+    width: 300px;
+    bottom: 160px;
+  }
+  .rectangle6 {
+    background: red;
+    width: 150px;
+    bottom: 200px;
+  }
+  /* task 3 */
+  .box2 {
+    position: relative;
+    transform-style: preserve-3d;
+    margin: 0 auto; 
+    width: 500px;
+    height: 600px;
+  }
+  .line {
+    width: 450px;
+    height: 25px;
+    position: absolute;
+  }
+  .line1 {
+    top: 300px;
+    left: -195px;
+    background:maroon;
+    transform: rotate(90deg);
+  }
+  .line2 {
+    top: 495px;
+    background:aqua;
+  }
+  .line3 {
+    top: 300px;
+    left: 195px;
+    background:navy;
+    transform: rotate(90deg);
+  }
+  .line4 {
+    top: 105px;
+    background:yellow;
+    transform: rotateY(-1deg);
+  }
